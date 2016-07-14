@@ -2,7 +2,7 @@
 > This work is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
 > To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-## Note: Tutorial content is under development. Contribution is highly appreciated.
+#### Note: Tutorial content is under development. Contribution is highly appreciated.
 
 ### Training course is designed for
 This training course is designed for beginner with zero programming knowledge. This course will help you learn basics of Python, Django Framework, Bootstrap and SQLite. At the end of this course, you will have a fully functional web application running in cloud.
