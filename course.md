@@ -23,6 +23,7 @@ This course is designed to help you understand and build simple web applications
 - Installation
 - Basics and comparative analysis
 - How to create Project and Apps
+- File and Folder Structures
 - Request and Response
 - Model and Admin site
 - CRUD
