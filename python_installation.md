@@ -8,7 +8,8 @@ Python 3 is released long back but due to industry adopton and available library
 
 ## Installation on Linux
 
-Linux comes with Python installed so no need to install python. Check the python version by below command:
+Linux comes with Python installed so no need to install python. At Nescode, we use LinuxMint 17.3 LTS Edition.
+Check the python version by below command:
 
 ```
 $ python --version
@@ -31,3 +32,10 @@ Visit (https://www.python.org/downloads/) and download python 2.7.xx(At the time
 One thing to watch out for: on the second screen of the installation wizard, marked "Customize", make sure you scroll down to the "Add python.exe to the Path" option and select "Will be installed on local hard drive", as shown here:
 
 ![Python path in windows](https://s3.amazonaws.com/nescodehellodjango/tutorial/msi_install_path.png)
+
+To check python installation, open command prompt by pressing Windows+R, type in cmd, and hit enter. Type below command to check version:
+
+```
+C:\>_ python -V
+Python 2.7.6
+```
