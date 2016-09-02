@@ -64,6 +64,6 @@ Git and Github is a version control system that is used for software development
 - Pull, Push and Merge
 
 ### Deployment
-Pythonanywhere is a Python hosting platform where you can develop and host your website/application or any other code directly from your browser without having to install software or manage your own server. They make a normally complicated process very simple, letting you focus on creating exciting applications for your users.
+Pythonanywhere is a Python hosting platform where you can develop and host your website/application or any other code directly from your browser without having to install software or manage your own server. Our training and course material help you deploy your Django application on cloud server in simplest way.
 - Cloud server/Web Server Introduction
 - Deployment on Pythonanywhere
