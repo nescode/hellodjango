@@ -36,6 +36,6 @@ One thing to watch out for: on the second screen of the installation wizard, mar
 To check python installation, open command prompt by pressing Windows+R, type in cmd, and hit enter. Type below command to check version:
 
 ```
-C:\>_ python -V
+C:\>_ python -version
 Python 2.7.6
 ```
