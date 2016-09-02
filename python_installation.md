@@ -29,3 +29,5 @@ Python 2.7.6
 Visit (https://www.python.org/downloads/) and download python 2.7.xx(At the time of writing this tutorial, it is Python 2.7.12). The installation is just like any other windows installer. It is important to remember the path (the directory) where you installed Python. It will be needed later!
 
 One thing to watch out for: on the second screen of the installation wizard, marked "Customize", make sure you scroll down to the "Add python.exe to the Path" option and select "Will be installed on local hard drive", as shown here:
+
+![Python path in windows](https://s3.amazonaws.com/nescodehellodjango/tutorial/msi_install_path.png)
