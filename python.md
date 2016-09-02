@@ -1,3 +1,7 @@
+## What you will learn in this section
+
+This section will give a detailed overview of Python programming language and why you should learn it.
+
 ## About Python
 
 Guido Van Rossum - know as founder of Python. When you enter "Python" word in Google, you will get an interesting mix of results about - Python as a language and Python as snake. However, there is an interesting story behind name. Here, we will talk - Python as a language.
