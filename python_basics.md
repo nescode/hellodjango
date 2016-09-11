@@ -27,3 +27,11 @@ Python is clearly and powerful object-oriented programming language compare to j
 - Data types are strongly and dynamically typed.
 - Python's automatic memory management frees you from having to manually allocate and free memory in your code.
 - Large standard library.
+
+## First program
+
+There are an old saying that if you write Hello World! while learning any new language, programming God will be happy and make you a good developer. However, what I believe is more and more you do practice, better and better your knowledge will be. But here to make Python God happy, we will write Hello World program.
+
+From here onwards, we will consider, you are useing Linux(Specially Linux Mint or Ubuntu) based machine. 
+
+```
