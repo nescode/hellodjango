@@ -32,6 +32,19 @@ Python is clearly and powerful object-oriented programming language compare to j
 
 There are an old saying that if you write Hello World! while learning any new language, programming God will be happy and make you a good developer. However, what I believe is more and more you do practice, better and better your knowledge will be. But here to make Python God happy, we will write Hello World program.
 
-From here onwards, we will consider, you are useing Linux(Specially Linux Mint or Ubuntu) based machine. 
+From here onwards, we will consider, you are useing Linux(Specially Linux Mint or Ubuntu) based machine. However, as I mentioned earlier, you can workon on Windows, Mac OSX too, it depends upon your personal choice.
 
 ```
+$ python
+Python 2.7.6 (default, Jun 22 2015, 17:58:13)
+[GCC 4.8.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Hello World!"
+Hello World!
+>>>
+```
+To exit from python shell, you can type below command.
+```
+>>> exit()
+```
+Now, we will start using a code editor called Atom which you can download from (https://atom.io/), it's an amazing open source editor which you can use for almost all programming language and web framework. It offers all short of features which you get in any other paid IDE, you name it! 
