@@ -65,3 +65,21 @@ You can run your python program which is written in ex1.py like this:
 ```
 $ python ex1.py
 ```
+
+## Comments in python
+
+Make a habbit of writing comments for the code you written. This will help others and propbably you also to understand what you wrote. Now, we will see a sample program and output with comments.
+
+```
+# My hello world program
+print "Hello World!"
+# print "This won't run."
+print 'I "said" do not touch me.'
+```
+Output
+
+```
+$ python ex1.py
+Hello World!
+I "said" do not touch me.
+```
