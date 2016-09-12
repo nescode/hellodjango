@@ -3,7 +3,6 @@
 This section will give you an overview of Python programming language and basics.
 
 ## Introduction
-
 Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code.
 
 Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles.
@@ -12,7 +11,6 @@ Python supports multiple programming paradigms, including object-oriented, imper
 - Implementation started in 1989
 
 ## Features
-
 Python is clearly and powerful object-oriented programming language compare to java, ruby, php, asp.net and perl. Some of the notable features of Python are:
 
 - Write once and run everywhere.
@@ -29,7 +27,6 @@ Python is clearly and powerful object-oriented programming language compare to j
 - Large standard library.
 
 ## First program
-
 There are an old saying that if you write Hello World! while learning any new language, programming God will be happy and make you a good developer. However, what I believe is more and more you do practice, better and better your knowledge will be. But here to make Python God happy, we will write Hello World program.
 
 From here onwards, we will consider, you are using Linux(Specially Linux Mint or Ubuntu) based machine. However, as I mentioned earlier, you can workon on Windows, Mac OSX too, it depends upon your personal choice.
@@ -50,7 +47,6 @@ To exit from python shell, you can type below command.
 Now, we will start using a code editor called Atom which you can download from (https://atom.io/), it's an amazing open source editor which you can use for almost all programming language and web framework. It offers all short of features which you get in any other paid IDE, you name it!
 
 ## Start coding in Atom
-
 I would recommend making a "project" folder inside your home directory and make another folder in the name of "pythontutorial". Create a file through command line, open ex1.py in atom IDE. Write same hello world code and run it.
 
 ```
@@ -67,7 +63,6 @@ $ python ex1.py
 ```
 
 ## Comments in python
-
 Make a habbit of writing comments for the code you written. This will help others and propbably you also to understand what you wrote. Now, we will see a sample program and output with comments.
 
 ```
