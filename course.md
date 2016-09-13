@@ -1,5 +1,4 @@
 ## Hello Django Training Course Content
-
 Hello Django course for beginners is designed for an individual with zero programming knowledge. We will cover basics of Python, Django Framework, Bootstrap Framework and SQLite database. Once you finished this training, you would be able develop a fully functional web application running on cloud server.
 
 ### Python

@@ -1,5 +1,4 @@
 ## What you will learn in this section
-
 This section will give you an overview of Python programming language and basics.
 
 ## Introduction
@@ -62,8 +61,8 @@ You can run your python program which is written in ex1.py like this:
 $ python ex1.py
 ```
 
-## Comments in python
-Make a habbit of writing comments for the code you written. This will help others and propbably for you also to understand what you wrote. Now, we will see a sample program and output with comments.
+## Comments and pound characters in python
+Make a habbit of writing comments for the block of code you written. This will help others and propbably for you also to understand what you wrote. Now, we will see a sample program and output with comments.
 
 ```
 # My hello world program
