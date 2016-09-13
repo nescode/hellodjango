@@ -11,7 +11,7 @@ Python supports multiple programming paradigms, including object-oriented, imper
 - Implementation started in 1989
 
 ## Features
-Python is clearly and powerful object-oriented programming language compare to java, ruby, php, asp.net and perl. Some of the notable features of Python are:
+Python is clearly a powerful object-oriented programming language compare to java, ruby, php, asp.net and perl. Some of the notable features of Python are:
 
 - Write once and run everywhere.
 - Uses an elegant syntax, making the programs you write easier to read.
