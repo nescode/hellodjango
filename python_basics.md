@@ -63,7 +63,7 @@ $ python ex1.py
 ```
 
 ## Comments in python
-Make a habbit of writing comments for the code you written. This will help others and propbably you also to understand what you wrote. Now, we will see a sample program and output with comments.
+Make a habbit of writing comments for the code you written. This will help others and propbably for you also to understand what you wrote. Now, we will see a sample program and output with comments.
 
 ```
 # My hello world program
