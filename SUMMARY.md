@@ -5,12 +5,12 @@
 * [About Python](python.md)
 * [Installation](python_installation.md)
 * [Basics](python_basics.md)
-* [Operations and Expressions]
-* [Control Flow]
-* [Functions]
-* [Modules]
-* [Data Structure]
-* [Object Oriented Programming]
-* [Input and Output]
-* [Exceptions]
-* [Standard Library]
+* [Operations and Expressions](python_opsandexp.md)
+* [Control Flow](python_control_flow.md)
+* [Functions](python_functions.md)
+* [Modules](python_modules.md)
+* [Data Structure](python_data_structure.md)
+* [Object Oriented Programming](python_oop.md)
+* [Input and Output](python_input_output.md)
+* [Exceptions](python_exceptions.md)
+* [Standard Library](python_standard_library.md)
