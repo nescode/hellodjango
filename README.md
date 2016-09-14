@@ -28,8 +28,8 @@ If you are failing in paying attention to the tiniest details of work, better yo
 Python and Django is one of the beautiful language and framework but tutorials out there on Internet is so complicated that beginners are scared of learning. This is an effort to make Python and Django easy to learn and develop some real project.
 
 ## Precautions for beginners
-Journey of learning Pyton and Django is not going to be something like walking on Red Carpet. The people who achieved something in his/her life worked hard day-in and day-out. Some of the bullet points worth mention here:
-- Never loose your cool while learning any new thing.
+Journey of learning Python and Django is not going to be something like walking on Red Carpet. The people who achieved something in his/her life worked hard day-in and day-out. Some of the bullet points worth mention here:
+- Never loose your patience while learning any new thing.
 - Always try to find solution(s) whether it is your problem or someone else.
 - Never give up. More than failure nothing will happen. But failures are going to give you an ultimate experience.
 - Maintain consistency in your day-to-day learning schedules.
