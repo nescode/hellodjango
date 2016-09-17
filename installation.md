@@ -5,6 +5,7 @@ This section will help you understand and install Python, git and django on your
 > MacOS: Any version
 > Windows: Windows 7, 8 or 10
 > Don't type "$" in terminal
+
 ## Python Installation
 Python 3 is released long back but due to industry adoption and available library in Python 2.7, in this course we will discuss only discuss about Python 2.7.xx. However, We have a defined roadmap for Python 3.x in coming days.
 
