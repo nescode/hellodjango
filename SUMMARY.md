@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Course Content](course.md)
 * [About Python](python.md)
-* [Installation](python_installation.md)
+* [Installation](installation.md)
 * [Basics](python_basics.md)
 * [Operations and Expressions](python_opsandexp.md)
 * [Control Flow](python_control_flow.md)
