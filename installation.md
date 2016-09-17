@@ -1,7 +1,9 @@
 ## What you will learn in this section
 
 This section will help you understand and install Python, git and django on your machine.
-
+> Linux: Ubuntu, Linux Mint or any Debian based distro
+> MacOS: Any version
+> Windows: Windows 7, 8 or 10
 ## Python Installation
 Python 3 is released long back but due to industry adoption and available library in Python 2.7, in this course we will discuss only discuss about Python 2.7.xx. However, We have a defined roadmap for Python 3.x in coming days.
 
