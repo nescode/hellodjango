@@ -2,8 +2,11 @@
 
 This section will help you understand and install Python, git and django on your machine.
 > Linux: Ubuntu, Linux Mint or any Debian based distro
+
 > MacOS: Any version
+
 > Windows: Windows 7, 8 or 10
+
 > Don't type "$" in terminal
 
 ## Python Installation
