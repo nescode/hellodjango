@@ -65,7 +65,38 @@ $ ssh-add ~/.ssh/id_rsa
 $ sudo apt-get install xclip
 $ xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
-In the top right corner of page, click your profile photo, then click Settings. In sidebar, go to SSH and GPG Keys. Click new SSH Key and add your SSH Key which you have just now copied in clipboard.
+In the top right corner of page, click your profile photo, then click Settings. In sidebar, go to SSH and GPG Keys. Click new SSH Key and add your SSH Key which you have just now copied in clipboard. (Give a title to key and press Ctrl + V)
+
+#### Step 4: Testing SSH Connection
+After you've set up your SSH key and added it to your GitHub account, you can test your connection. Open your terminal and test
+```
+$ ssh -T git@github.com
+```
+### MacOS setup
+Process of setting up git in Mac is same as Linux.
+
+### Windows setup
+
+#### Step 1: Install git
+Just go to http://git-scm.com/download/win and the download will start automatically. Start installation setup by double clicking on .exe file. While installation, choose below options:
+- In the fifth step entitled "Adjusting your PATH environment", choose "Use Git and optional Unix tools from the Windows Command Prompt" (the bottom option)
+- Checkout Windows-style, commit Unix-style line endings is good.
+Other than this, the defaults are fine.
+
+#### Step 2: Create GitHub account
+Create a GitHub account at https://github.com/. GitHub is a web-based Git repository hosting service which will allow you publish and collaborate on code with other.
+
+#### Step 3: Generate SSH Key and add it to GitHub account
+SSH keys are a way to identify trusted computers without involving passwords. You can generate an SSH key and add the public key to your GitHub account by following the commands in same order.
+
+Note: Use Git Bash to perform execute below command, NOT windows command prompt.
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" # Don't add any passphrase.
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+$ clip < ~/.ssh/id_rsa.pub
+```
+In the top right corner of page, click your profile photo, then click Settings. In sidebar, go to SSH and GPG Keys. Click new SSH Key and add your SSH Key which you have just now copied in clipboard. (Give a title to key and press Ctrl + V)
 
 #### Step 4: Testing SSH Connection
 After you've set up your SSH key and added it to your GitHub account, you can test your connection. Open your terminal and test
