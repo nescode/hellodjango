@@ -18,7 +18,7 @@ SL | OPERATORS | DESCRIPTIONS | EXAMPLE
 8 | << (left shift) | Shifts the bits of the number to the left by the number of bits specified. | 2 << 2 gives 8
 9 | >> (right shift) | Shifts the bits of the number to the right by the number of bits specified. | 11 >> 1 gives 5
 10 | & (bit-wise AND) | Bit-wise AND of the numbers | 5 & 3 gives 1.
-11 | | (bit-wise OR) | Bitwise OR of the numbers | 5 | 3 gives 7
+11 | "| (bit-wise OR)" | Bitwise OR of the numbers | "5 | 3 gives 7"
 12 | ^ (bit-wise XOR) | Bitwise XOR of the numbers | 5 ^ 3 gives 6
 13 | ~ (bit-wise invert) | The bit-wise inversion of x is -(x+1) | ~5 gives -6
 14 | < (less than) | Returns whether x is less than y. | 5 < 3 gives False
