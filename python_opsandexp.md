@@ -72,8 +72,9 @@ Area is 10
 Perimeter is 14
 ```
 
-### Study drill and recommendation
+### Study drills and recommendation
 We have seen how operators, operands and expressions - these are the basic building blocks of any program. If you are willing to be a good programmer then you must have sound knowledge of operations and expressions. Keep practice by doing various operations.
 - Read again and again, if you have missed something.
 - Find something you need to calculate and create another .py file and write your program.
 - Do googling, if you stuck somewhere.
+- Use a old method of writing a program on paper, this will help you avoid small mistakes since all modern IDE give code hints which shrinking your common sense.
