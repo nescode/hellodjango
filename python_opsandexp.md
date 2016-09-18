@@ -77,4 +77,4 @@ We have seen how operators, operands and expressions - these are the basic build
 - Read again and again, if you have missed something.
 - Find something you need to calculate and create another .py file and write your program.
 - Do googling, if you stuck somewhere.
-- Use a old method of writing a program on paper, this will help you avoid small mistakes since all modern IDE give code hints which shrinking your common sense.
+- Use an old method of writing a program on paper, this will help you avoid small mistakes since all modern IDE give code hints which shrinking developer common sense.
