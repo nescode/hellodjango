@@ -32,7 +32,7 @@ SL | OPERATORS | DESCRIPTIONS | EXAMPLE
 
 ### Evaluation order
 In case of expression such as 2 + 3 * 4, multiplication operator has higher precedence than the addition operator.
-The following table gives the precedence table for Python, from the lowest precedence (least binding) to the highest precedence (most binding). This means that in a given expression, Python will first evaluate the operators and expressions lower in the table before the ones listed higher in the table. Operators in the same box group left to right (except for exponentiation, which groups from right to left).
+The following table gives the precedence table for Python, from the lowest precedence (least binding) to the highest precedence (most binding). This means that in a given expression, Python will first evaluate the operators and expressions lower in the table before the ones listed higher in the table. Operators in the same box group left to right (except for exponentiation, which groups from right to left). Table reference [Python evaluation order](https://docs.python.org/3/reference/expressions.html#operator-precedence)
 
 SL | OPERATOR | DESCRIPTIONS
 -------- | --------- | -----------
@@ -42,8 +42,12 @@ SL | OPERATOR | DESCRIPTIONS
 4 | and | Boolean AND
 5 | not x | Boolean NOT
 6 | in, not in, is, is not, <, <=, >, >=, !=, == | Comparisons, including membership tests and identity tests
-7 | | | Bitwise OR
-8 | ^ | Bitwise XOR
-9 | & | Bitwise AND
-10 | <<, >> | Shifts
-11 | +, - | Addition and subtraction
+7 | ^ | Bitwise XOR
+8 | & | Bitwise AND
+9 | <<, >> | Shifts
+10 | +, - | Addition and subtraction
+11 | +x, -x, ~x | Positive, negative, bitwise NOT
+12 | ** | Exponentiation
+13 | await x | Await expression
+14 | x[index], x[index:index], x(arguments...), x.attribute | Subscription, slicing, call, attribute reference
+15 | (expressions...), [expressions...], {key: value...}, {expressions...} | Binding or tuple display, list display, dictionary display, set display
