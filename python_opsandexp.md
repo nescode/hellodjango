@@ -29,3 +29,21 @@ SL | OPERATORS | DESCRIPTIONS | EXAMPLE
 19 | not (boolean NOT) | If x is True, it returns False. If x is False, it returns True. | x = True; not x returns False.
 20 | and (boolean AND) | x and y returns False if x is False, else it returns evaluation of y | x = False; y = True; x and y returns False since x is False.
 21 | or (boolean OR) | If x is True, it returns True, else it returns evaluation of y | x = True; y = False; x or y returns True
+
+### Evaluation order
+In case of expression such as 2 + 3 * 4, multiplication operator has higher precedence than the addition operator.
+The following table gives the precedence table for Python, from the lowest precedence (least binding) to the highest precedence (most binding). This means that in a given expression, Python will first evaluate the operators and expressions lower in the table before the ones listed higher in the table. Operators in the same box group left to right (except for exponentiation, which groups from right to left).
+
+SL | OPERATOR | DESCRIPTIONS
+-------- | --------- | -----------
+1 | lambda | Lambda expression
+2 | if – else | Conditional expression
+3 | or | Boolean OR
+4 | and | Boolean AND
+5 | not x | Boolean NOT
+6 | in, not in, is, is not, <, <=, >, >=, !=, == | Comparisons, including membership tests and identity tests
+7 | | | Bitwise OR
+8 | ^ | Bitwise XOR
+9 | & | Bitwise AND
+10 | <<, >> | Shifts
+11 | +, - | Addition and subtraction
