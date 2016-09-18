@@ -51,3 +51,29 @@ SL | OPERATOR | DESCRIPTIONS
 13 | await x | Await expression
 14 | x[index], x[index:index], x(arguments...), x.attribute | Subscription, slicing, call, attribute reference
 15 | (expressions...), [expressions...], {key: value...}, {expressions...} | Binding or tuple display, list display, dictionary display, set display
+
+### Associativity
+Operators are usually associated from left to right. This means that operators with the same precedence are evaluated in a left to right manner. For example, 2 + 3 + 4 is evaluated as (2 + 3) + 4.
+Open you atom editor and create a file "ex2.py" and measure area and Perimeter of a rectangle like this:
+```
+# Assigning value in a variales named length and breadth
+length = 5
+breadth = 2
+
+# Calculating, printing area and Perimeter
+area = length * breadth
+print('Area is', area)
+print('Perimeter is', 2 * (length + breadth))
+```
+Now, open your terminal and run, your output should be similar to this:
+```
+$ python ex2.py
+Area is 10
+Perimeter is 14
+```
+
+### Recommendation
+We have seen how operators, operands and expressions - these are the basic building blocks of any program. If you are willing to be a good programmer then you must have sound knowledge of operations and expressions. Keep practice by doing various operations.
+- Read again and again, if you have missed something.
+- Find something you need to calculate and create another .py file and write your program.
+- Do googling, if you stuck somewhere.
