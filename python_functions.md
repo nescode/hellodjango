@@ -57,3 +57,67 @@ $ python ex8.py
 (4, 'is maximum')
 (7, 'is maximum')
 ```
+
+### Local variable
+In many other programming languages, variables are treated as global if not otherwise declared. But python deals variables other way around - They are local, if not otherwise declared.
+
+Why python has this approach: In general, declaring global variable is a bad practice and should be avoided. Instead of declaring global variable, it is better to utilize a parameter for getting a value into a function or return value to get it out.
+
+Let's write a program where you can define a local variable in "ex8.py":
+```
+# declare a variable
+x = 50
+
+def func(x):
+    print('x is', x)
+    x = 2
+    print('Changed local x to', x)
+
+func(x)
+print('x is still', x)
+```
+If you run this program, you should get an output like this:
+```
+$ python ex9.py
+('x is', 50)
+('Changed local x to', 2)
+('x is still', 50)
+```
+### Explation for local variable program
+The first time that we print the value of the name x with the first line in the function's body, Python uses the value of the parameter declared in the main block, above the function definition.
+
+Next, we assign the value 2 to x. The name x is local to our function. So, when we change the value of x in the function, the x defined in the main block remains unaffected.
+
+With the last print statement, we display the value of x as defined in the main block, thereby confirming that it is actually unaffected by the local assignment within the previously called function.
+
+### Global variable
+As I mentioned earlier, any variable assigned in a function is local to that function, unless it is specifically declared global. Let's write the same program which we wrote in local variable section but will define it a global function "ex10.py":
+```
+# Assign a value to a variable
+x = 50
+
+# Define it global
+def func():
+    global x
+
+    print('x is', x)
+    x = 2
+    print('Changed global x to', x)
+
+func()
+print('Value of x is', x)
+```
+If you run this program, your output some look like this:
+```
+$ python ex10.py
+('x is', 50)
+('Changed global x to', 2)
+('Value of x is', 2)
+```
+
+### Practice drills and recommendation
+Do this experiment before moving to next chapter.
+- Write same program with different variables.
+- Make mistake knowingly and analyse the errors.
+- Do Googling with a keywords like - functions, local variables in python, global variables in python.
+- Write comment for every single line of code. 
