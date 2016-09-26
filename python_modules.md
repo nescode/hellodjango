@@ -9,3 +9,11 @@ There are various methods of writing modules, but the simplest way is to
 - Write the modules in the native language in which the Python interpreter itself was written.
 
 Post writing a module, you can import it in another program to make use of its functionality. This is how we can use the Python standard library as well.
+
+### Start with basic modules
+Let's write a most basic modules and import it. Create a file "ex11.py" and write below program:
+```
+def hello_django():
+   print "Hello Django, you are awesome."
+```
+Then open your terminal and import "ex11.py" (without quote)
