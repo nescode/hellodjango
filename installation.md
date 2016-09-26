@@ -101,7 +101,7 @@ Note: Use Git Bash to perform execute below command, NOT windows command prompt.
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" # Don't add any passphrase.
 $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_rsa
-$ clip < ~/.ssh/id_rsa.pub
+$ clip < ~/.ssh/id_rsa.pub OR cat < ~/.ssh/id_rsa.pub
 ```
 In the top right corner of page, click your profile photo, then click Settings. In sidebar, go to SSH and GPG Keys. Click new SSH Key and add your SSH Key which you have just now copied in clipboard. (Give a title to key and press Ctrl + V)
 

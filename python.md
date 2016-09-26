@@ -20,7 +20,7 @@ Python is extremely easy to get started with. Python has an extraordinarily simp
 ### Free and Open source
 Python is free and open source programming language. Free as in freedom not free as as in beer (A famous quote of great GNU founder - Richard Stallman). “Free software” means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software.
 
-### high-level language
+### High-level language
 When you write programs in Python, you never need to bother about the low-level details such as managing the memory used by your program as you care in C - language. The languages are considered high-level because they are closer to human languages and further from machine languages.
 
 ### Portable
