@@ -2,6 +2,9 @@
 
 * [Introduction](README.md)
 * [Course Content](course.md)
+------------------
+Python
+------------------
 * [About Python](python.md)
 * [Installation](installation.md)
 * [Basics](python_basics.md)
@@ -14,7 +17,9 @@
 * [Input and Output](python_input_output.md)
 * [Exceptions](python_exceptions.md)
 * [Standard Library](python_standard_library.md)
-* [Django Web Framework]
+----------------------
+Django Web Framework
+----------------------
 * [About Django](about_django.md)
 * [Installation](django_installation.md)
 * [Basics and comparative analysis](django_basics.md)
