@@ -79,6 +79,14 @@ After you've set up your SSH key and added it to your GitHub account, you can te
 ```
 $ ssh -T git@github.com
 ```
+
+#### Configure git profile
+Once you setup github, it't time to configure email and name profile. You can configure in simple two steps:
+```
+$ git config --global user.email "youremail@domain.com"
+$ git config --global user.name "Your Name"
+```
+
 ### MacOS setup
 Process of setting up git in Mac is same as Linux.
 
