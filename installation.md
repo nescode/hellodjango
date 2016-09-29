@@ -118,3 +118,30 @@ After you've set up your SSH key and added it to your GitHub account, you can te
 ```
 $ ssh -T git@github.com
 ```
+
+#### Configure git profile
+Once you setup github, it't time to configure email and name profile. You can configure in simple two steps:
+```
+$ git config --global user.email "youremail@domain.com"
+$ git config --global user.name "Your Name"
+```
+Now, you can clone and push repository to GitHub.
+
+## SQLite installation
+SQLite is most used SQL Database in the world. It works well right for a ten pages of website to data mining projects. Installation process of python and django will also install SQLite. While working with Django, we will use SQLite and a database administration GUI tool called Database Browser for SQLite(DB4S).
+
+#### SQLite GUI
+DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite. Installation process is simple:
+
+#### For Linux
+Open your terminal, add PPA and install:
+```
+$ sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+$ sudo apt-get update
+$ sudo apt-get install sqlitebrowser
+```
+### For MacOS
+To install SQLite browser on MacOS, browse through official website (http://sqlitebrowser.org/) and download .dmg. Start the standard installation process by double clicking on downloaded file.
+
+### For Windows
+To install SQLite browser on MacOS, browse through official website (http://sqlitebrowser.org/) and download .exe. Start the standard installation process by double clicking on downloaded file.
