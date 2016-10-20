@@ -61,3 +61,11 @@ $ python ex13.py
 This program is being run by itself
 ```
 Every Python module has its __name__ defined. If this is '__main__', that implies that the module is being run standalone by the user and we can take appropriate actions.
+
+### Practice drills and recommendation
+Do this experiment before moving to next chapter.
+
+- Read modules chapter from official python documentation https://docs.python.org/2/tutorial/modules.html
+- Make mistake knowingly and analyse the errors.
+- Do Googling with a keywords like - Python modules, Import a module, Import local path through python module.
+- Write comment for every single line of code.
