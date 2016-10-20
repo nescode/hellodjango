@@ -7,6 +7,7 @@ You’ll learn about how to store data in your program.
  - tuple
  - dictionary
  - set
+ 
 We will see how to use each of them and how they help us store data properly.
 
 ### List
