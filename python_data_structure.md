@@ -88,18 +88,18 @@ Dictionary is another data type built into python. Unlike sequences, which are i
 Tuples can be used as keys if they contain only strings, numbers, or tuples; if a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. You can’t use lists as keys, since lists can be modified in place using index assignments, slice assignments, or methods like append() and extend().
 
 ### set
-In simplest terms 'set' can be defined as - set is an unordered collections of unique elements. Or Sets are lists with no duplicate entries. Let's say you want to collect a list of words used in a paragraph:
+In simplest terms `set` can be defined as - `set` is an unordered collections of unique elements. Or `Sets` are lists with no duplicate entries. Let's say you want to collect a list of words used in a paragraph:
 ```
 >>> print set("Hello Django is an open initiatives for python classes.".split())
 set(['initiatives', 'for', 'python', 'is', 'an', 'classes.', 'Django', 'open', 'Hello'])
 >>>
 ```
-Sets are a powerful tool in Python since they have the ability to calculate differences and intersections between other sets. For example, say you have a list of participants in events A and B:
+`Sets` are a powerful tool in Python since they have the ability to calculate differences and intersections between other sets. For example, say you have a list of participants in events A and B:
 ```
 >>> a = set(["Sunil", "Sunita", "Arundhati", "Munender"])
 >>> b = set(["Sunil", "Amit"])
 ```
-Now, Let's find out which members attended both events, you may use the "intersection" method here:
+Now, Let's find out which members attended both events, you may use the `intersection` method here:
 ```
 >>> a.intersection(b)
 set(['Sunil'])
