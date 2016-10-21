@@ -69,3 +69,15 @@ SL | FUNCTION | DESCRIPTION
 3 | max(list) | Returns item from the list with max value.
 4 | min(list) | Returns item from the list with min value.
 5 | list(seq) | Converts a tuple into list.
+
+### Tuple
+Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets. Creating a tuple is as simple as putting different comma-separated values. Let's define a tuple:
+```
+>>> best_os = ("ubuntu", "macos", "solaris" "windows")
+```
+Accessing tuple is same as list. Since, we defined a tuple, let's access the best operating system in same python shell.
+```
+>>> print best_os[0]
+ubuntu
+>>>
+```
