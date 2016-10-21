@@ -1,5 +1,5 @@
 ## What you will learn in this section
-You’ll learn about how to store data in your program.
+You’ll learn about how to store data in your program. One of the keys to becoming a better Python programmer is to have a sound knowledge of Python's built-in data structures. Since this is just a beginner course, we won't cover in-depth of data structures but readers are requested to learn data structures in depth if you want to become good python developer.
 
 ### Introduction
  Data strucutre is an structures which can hold some data together. In other words they are used to store a collection of related data. There are four built-in data structures in Python:
@@ -81,3 +81,11 @@ Accessing tuple is same as list. Since, we defined a tuple, let's access the bes
 ubuntu
 >>>
 ```
+
+### Dictionary
+Dictionary is another data type built into python. Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys.
+
+Tuples can be used as keys if they contain only strings, numbers, or tuples; if a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. You can’t use lists as keys, since lists can be modified in place using index assignments, slice assignments, or methods like append() and extend().
+
+### set
+In simplest terms 'set' can be defined as - set is an unordered collections of unique elements.
