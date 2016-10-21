@@ -88,4 +88,9 @@ Dictionary is another data type built into python. Unlike sequences, which are i
 Tuples can be used as keys if they contain only strings, numbers, or tuples; if a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. You can’t use lists as keys, since lists can be modified in place using index assignments, slice assignments, or methods like append() and extend().
 
 ### set
-In simplest terms 'set' can be defined as - set is an unordered collections of unique elements.
+In simplest terms 'set' can be defined as - set is an unordered collections of unique elements. Or Sets are lists with no duplicate entries. Let's say you want to collect a list of words used in a paragraph:
+```
+>>> print set("Hello Django is an open initiatives for python classes.".split())
+set(['initiatives', 'for', 'python', 'is', 'an', 'classes.', 'Django', 'open', 'Hello'])
+>>> 
+```
