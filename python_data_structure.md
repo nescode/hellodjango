@@ -92,5 +92,18 @@ In simplest terms 'set' can be defined as - set is an unordered collections of u
 ```
 >>> print set("Hello Django is an open initiatives for python classes.".split())
 set(['initiatives', 'for', 'python', 'is', 'an', 'classes.', 'Django', 'open', 'Hello'])
->>> 
+>>>
+```
+Sets are a powerful tool in Python since they have the ability to calculate differences and intersections between other sets. For example, say you have a list of participants in events A and B:
+```
+>>> a = set(["Sunil", "Sunita", "Arundhati", "Munender"])
+>>> b = set(["Sunil", "Amit"])
+```
+Now, Let's find out which members attended both events, you may use the "intersection" method here:
+```
+>>> a.intersection(b)
+set(['Sunil'])
+>>> b.intersection(a)
+set(['Sunil'])
+>>>
 ```
