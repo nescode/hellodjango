@@ -107,3 +107,11 @@ set(['Sunil'])
 set(['Sunil'])
 >>>
 ```
+### Practice drills and recommendation
+Do this experiment before moving to next chapter.
+
+- Read modules chapter from official python documentation https://docs.python.org/2.7/tutorial/datastructures.html
+- Make mistake knowingly while practicing above program and analyse the errors.
+- Do Googling with a keywords like - Python data structures, Data structure
+- Write comment for every single line of code.
+- As I said in beginning of this chapter, Data structure knowledge is very very important to be a good developer. Buy and read books on Data structure.
