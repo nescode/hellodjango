@@ -35,3 +35,7 @@ Django Web Framework
 * [Forms and generic forms](django_forms.md)
 * [Static files](django_staticfiles.md)
 * [Testing](django_test.md)
+----------------------
+FAQ
+----------------------
+* [Git FAQ](git_faq.md)
