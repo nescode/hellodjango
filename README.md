@@ -16,6 +16,10 @@ At some point in our life, we meet a teacher who leave a lasting impression thro
 - This is not our business where we make money. This is an effort to contribute back to open source community.
 - Most affordable Python and Django training program.
 
+## Youtube channel
+If your learning approach is more toward visual. Head on to [Youtube channel](https://www.youtube.com/playlist?list=PL20-QsXJgFDO86wWR7rI8Dcw6cgrhRcud).
+
+
 ## Build it, break it and again build it.
 At Nescode, we believe in a simple thought - Practice makes a people perfect. Build it, break it and again build it philosophy will help you understand the stuff works in background. It will make your concepts more clear.
 
