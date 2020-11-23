@@ -21,7 +21,7 @@ If your learning approach is more toward visual. Head on to [Youtube channel](ht
 
 
 ## Build it, break it and again build it.
-At Nescode, we believe in a simple thought - Practice makes a people perfect. Build it, break it and again build it philosophy will help you understand the stuff works in background. It will make your concepts more clear.
+At Nescode, we believe in a simple thought - Practice makes people perfect. Build it, break it and again build it philosophy will help you understand the stuff works in background. It will make your concepts more clear.
 
 ## Attention
 The one skill that will make you a bad programmer OR good programmer is attention to detail. Whatever you learn, pay full attention else don't learn it.
